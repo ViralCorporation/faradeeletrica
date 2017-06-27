@@ -145,7 +145,8 @@ section:nth-of-type(odd) {
     text-decoration: none;
 }
 .center-content {
-    text-align: center;
+    text-align: bottom;
+    text-align: bottom;
 }
 p.description {
     width: 70%;
@@ -270,7 +271,7 @@ p.description {
 
 /* bennar Section CSS */
 .header-image{
-	padding-top:180px;
+	padding-top:0px;
 }
 #bennar{
 	position:relative;
@@ -288,6 +289,7 @@ p.description {
 	background-attachment: fixed;
 	height: 100%;
 	overflow: hidden;
+
 }
 .heading-text{
 	padding-top:120px;
@@ -456,11 +458,11 @@ p.bannerDescription{
 
 /* video Icon Section */
 .video_overlay{
-	background:#c0985e;
+	background:#2f2d2d;
 }
 #video_icon{
 	background:url(../images/videobg.jpg);
-	background-size:cover;
+
 }
 .video_text h5{
 	color:#fff;
@@ -495,6 +497,9 @@ p.bannerDescription{
 .gallery_heading_text{
 	padding:60px 0px;
 }
+.gallery_heading_text{
+	padding:60px 0px;
+}
 .gallery_heading_text h1{
 	color:#fff;
 }
@@ -513,9 +518,19 @@ p.bannerDescription{
 	background:url(../images/video_bg.jpg);
 	background-size:cover;
 }
+.video_heading_text{
+	padding:0 0 60px 0;
+}
+
+.video_heading_text h1{
+	color:#fff;
+}
+.video_heading_text p{
+	color:#fff;
+}
 
 .video_text{
-	padding:150px 0;
+	padding:0 0 60px 0;
 
 }
 .video_text img{
@@ -544,7 +559,7 @@ p.bannerDescription{
 	content:"Popular";
 	right:0;
 	top:40px;
-	background:#cd9c56;
+	background:#ffc26c;
 	color:#fff;
 	position:absolute;
 	padding:3px 10px;
@@ -599,7 +614,7 @@ a.info_right_text{
 .single_testimonial_text{
 	max-width:100%;
 	margin:0 auto;
-	color:#fff;
+	color:#cd9c56;
 	text-align:center;
 }
 .single_testimonial_text p{
@@ -844,4 +859,12 @@ a.info_right_text{
 
 }
 
+.overlay-brain{
+    background-color: rgba(0,0,0,.8);
+}
+
+#intro{
+  color: #cd9c56;
+
+}
 
