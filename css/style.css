@@ -225,7 +225,7 @@ p.description {
     box-shadow: 0 6px 12px rgba(0, 0, 0, .175);
     -webkit-box-shadow: 0 6px 12px rgba(0, 0, 0, .175);
     background-color: #fff;
-	height:80px;
+	height:60px;
 }
 
 .main-menu.tiny .navbar-nav > li > a {
@@ -234,7 +234,7 @@ p.description {
 
 
 .main-menu .navbar-nav > li > a {
-    padding: 30px 13px 25px 13px;
+    padding: 30px 13px 5px 13px;
     font-size: 14px;
     line-height: 22px;
     color: #fff;
@@ -264,7 +264,7 @@ p.description {
     border: none;
 }
 .navbar>.container .navbar-brand, .navbar>.container-fluid .navbar-brand {
-    margin-top: 20px;
+    margin-top: 10px;
 }
 
 
